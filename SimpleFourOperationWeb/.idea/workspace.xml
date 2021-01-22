@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SimpleFourOperationWeb:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/DoTitle.html" line="54" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="391f32c5-bcfe-49b0-b2f1-1a04b101f511" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/DoTitle.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/DoTitle.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Title.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Title.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.56344825">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Service/GenerateSimpleOpTitleService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                  <folding>
+                    <element signature="method#test#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="e#1003#1004#0" expanded="true" />
+                    <element signature="e#1054#1055#0" expanded="true" />
+                    <element signature="method#generateSimpleFourTitleJsonArray#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="docComment;method#storeJsonInJsonArray#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="method#storeJsonInJsonArray#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="method#generateSimpleFourTitleJson#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="method#generateFormula#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="method#printSimpleOpEx#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="method#generateCorrectAnswer#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="method#operations#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="docComment;method#decide#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="method#decide#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="method#testGenerateNum#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="method#generateNum#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="method#generateFactoria#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="method#printFactoriaOp#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="method#getNFactorial#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="docComment;method#generateFactorialNumber#0;class#GenerateSimpleOpTitleService#0" />
+                    <element signature="method#generateFactorialNumber#0;class#GenerateSimpleOpTitleService#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/Service/GenerateMixTitleService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="100">
+                  <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+                  <folding>
+                    <element signature="method#generateMixTitleJsonArray#0;class#GenerateMixTitleService#0" />
+                    <element signature="docComment;method#generateSimpleFourTitleJson#0;class#GenerateMixTitleService#0" />
+                    <element signature="method#generateSimpleFourTitleJson#0;class#GenerateMixTitleService#0" />
+                    <element signature="docComment;method#generateFractionTitleJson#0;class#GenerateMixTitleService#0" />
+                    <element signature="method#generateFractionTitleJson#0;class#GenerateMixTitleService#0" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/DoTitle.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="653">
+                  <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+                  <folding>
+                    <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/Title.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="233">
+                  <caret line="54" column="107" selection-start-line="54" selection-start-column="107" selection-end-line="54" selection-end-column="107" />
+                  <folding>
+                    <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/webapp/CountDown.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="380">
+                  <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>stop</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/Filter/SetCharacterEncodingFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/JsonService.java" />
+        <option value="D:/IdeaProject/FourOperations/src/main/SimpleFourOperation.java" />
+        <option value="D:/IdeaProject/FourOperations/src/main/ExecutionEengine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/GenerateTitleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/DeepCopy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/OperationsList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/GenerateMixTitleService.java" />
+        <option value="F:/第六组/GZCC_Online_Exam/GZCC_Online_Exam/src/main/webapp/js/success.js" />
+        <option value="F:/第六组/GZCC_Online_Exam/GZCC_Online_Exam/src/main/webapp/success.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/DoTiTle.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/CountDown.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/Servlet/GetTitleInfoServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dao/Fraction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/GenerateFractionTitleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Service/GenerateSimpleOpTitleService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/DoTitle.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/Title.html" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="51" />
+    <option name="y" value="32" />
+    <option name="width" value="1766" />
+    <option name="height" value="1011" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SimpleFourOperationWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleFourOperationWeb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleFourOperationWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleFourOperationWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleFourOperationWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleFourOperationWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleFourOperationWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleFourOperationWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SimpleFourOperationWeb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SimpleFourOperationWeb" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540446652249" />
+    <property name="last_opened_file_path" value="F:/第六组/GZCC_Online_Exam/GZCC_Online_Exam" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat7">
+    <configuration name="GenerateFractionTitleService.generateFormula" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleFourOperationWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Service" />
+      <option name="MAIN_CLASS_NAME" value="Service.GenerateFractionTitleService" />
+      <option name="METHOD_NAME" value="generateFormula" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateFractionTitleService.testFraction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleFourOperationWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Service" />
+      <option name="MAIN_CLASS_NAME" value="Service.GenerateFractionTitleService" />
+      <option name="METHOD_NAME" value="testFraction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateSimpleOpTitleService.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleFourOperationWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Service" />
+      <option name="MAIN_CLASS_NAME" value="Service.GenerateSimpleOpTitleService" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateSimpleOpTitleService.testGenerate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleFourOperationWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Service" />
+      <option name="MAIN_CLASS_NAME" value="Service.GenerateSimpleOpTitleService" />
+      <option name="METHOD_NAME" value="testGenerate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenerateSimpleOpTitleService.testGenerateNum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SimpleFourOperationWeb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Service" />
+      <option name="MAIN_CLASS_NAME" value="Service.GenerateSimpleOpTitleService" />
+      <option name="METHOD_NAME" value="testGenerateNum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.91" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="D:\Program Files (x86)\Java\jdk1.8.0_181\jre">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SimpleFourOperationWeb:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SimpleFourOperationWeb" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50698" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SimpleFourOperationWeb:war" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GenerateSimpleOpTitleService.testGenerate" />
+        <item itemvalue="JUnit.GenerateSimpleOpTitleService.test" />
+        <item itemvalue="JUnit.GenerateSimpleOpTitleService.testGenerateNum" />
+        <item itemvalue="JUnit.GenerateFractionTitleService.generateFormula" />
+        <item itemvalue="JUnit.GenerateFractionTitleService.testFraction" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="391f32c5-bcfe-49b0-b2f1-1a04b101f511" name="Default Changelist" comment="" />
+      <created>1540170903847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540170903847</updated>
+      <workItem from="1540170908325" duration="15647000" />
+      <workItem from="1540198027078" duration="1074000" />
+      <workItem from="1540200426597" duration="19865000" />
+      <workItem from="1540258015907" duration="19000" />
+      <workItem from="1540258074515" duration="18275000" />
+      <workItem from="1540308999751" duration="7194000" />
+      <workItem from="1540344119186" duration="55000" />
+      <workItem from="1540344208727" duration="7695000" />
+      <workItem from="1540358302990" duration="2597000" />
+      <workItem from="1540369000725" duration="468000" />
+      <workItem from="1540395807977" duration="4297000" />
+    </task>
+    <task id="LOCAL-00001" summary="update date 10/24 13:40">
+      <created>1540369151050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540369151050</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="GenerateSimpleOpTitleService_testGenerateNum - 2018.10.24 at 11h 01m 08s.xml">
+      <configuration name="GenerateSimpleOpTitleService.testGenerateNum" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenerateSimpleOpTitleService_testGenerate - 2018.10.24 at 11h 11m 35s.xml">
+      <configuration name="GenerateSimpleOpTitleService.testGenerate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenerateSimpleOpTitleService_testGenerate - 2018.10.24 at 11h 12m 56s.xml">
+      <configuration name="GenerateSimpleOpTitleService.testGenerate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenerateSimpleOpTitleService_testGenerate - 2018.10.24 at 11h 16m 25s.xml">
+      <configuration name="GenerateSimpleOpTitleService.testGenerate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenerateSimpleOpTitleService_testGenerate - 2018.10.24 at 11h 16m 31s.xml">
+      <configuration name="GenerateSimpleOpTitleService.testGenerate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenerateSimpleOpTitleService_testGenerate - 2018.10.24 at 11h 17m 44s.xml">
+      <configuration name="GenerateSimpleOpTitleService.testGenerate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenerateSimpleOpTitleService_test - 2018.10.24 at 11h 18m 34s.xml">
+      <configuration name="GenerateSimpleOpTitleService.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenerateSimpleOpTitleService_testGenerate - 2018.10.24 at 11h 18m 46s.xml">
+      <configuration name="GenerateSimpleOpTitleService.testGenerate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenerateSimpleOpTitleService_testGenerate - 2018.10.24 at 11h 18m 49s.xml">
+      <configuration name="GenerateSimpleOpTitleService.testGenerate" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenerateSimpleOpTitleService_testGenerate - 2018.10.24 at 11h 18m 58s.xml">
+      <configuration name="GenerateSimpleOpTitleService.testGenerate" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="77186000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="51" y="32" width="1766" height="1011" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6620926" visible="true" weight="0.15005861" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Learn" order="7" />
+      <window_info id="Web" order="8" sideWeight="0.33790737" side_tool="true" weight="0.16044776" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.34207526" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45119306" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.37254903" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.27657267" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.25568798" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update date 10/24 13:40" />
+    <option name="LAST_COMMIT_MESSAGE" value="update date 10/24 13:40" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="619" column="9" lean-forward="true" selection-start-line="619" selection-start-column="9" selection-end-line="619" selection-end-column="9" />
+          <folding>
+            <element signature="e#25302#25303#0" expanded="true" />
+            <element signature="e#25341#25342#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Filter/SetCharacterEncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-137">
+          <caret line="78" column="37" lean-forward="true" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/JsonService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="70" column="30" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/DeepCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#160#190#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files (x86)/Java/jdk1.8.0_181/src.zip!/java/io/PrintWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="616" column="11" selection-start-line="616" selection-start-column="11" selection-end-line="616" selection-end-column="11" />
+          <folding>
+            <element signature="e#20593#20594#0" expanded="true" />
+            <element signature="e#20635#20636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dao/Fraction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+          <folding>
+            <element signature="method#toString#0;class#Fraction#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Servlet/GetTitleInfoServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/OperationsList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#storeOpInList#0;class#OperationsList#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/title.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/GenerateMixTitleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="method#generateMixTitleJsonArray#0;class#GenerateMixTitleService#0" />
+            <element signature="docComment;method#generateSimpleFourTitleJson#0;class#GenerateMixTitleService#0" />
+            <element signature="method#generateSimpleFourTitleJson#0;class#GenerateMixTitleService#0" />
+            <element signature="docComment;method#generateFractionTitleJson#0;class#GenerateMixTitleService#0" />
+            <element signature="method#generateFractionTitleJson#0;class#GenerateMixTitleService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/GenerateSimpleOpTitleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="method#test#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="method#generateSimpleFourTitleJsonArray#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="docComment;method#storeJsonInJsonArray#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="method#storeJsonInJsonArray#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="method#generateSimpleFourTitleJson#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="method#generateFormula#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="method#printSimpleOpEx#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="method#generateCorrectAnswer#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="method#operations#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="docComment;method#decide#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="method#decide#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="method#testGenerateNum#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="method#generateNum#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="method#generateFactoria#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="method#printFactoriaOp#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="method#getNFactorial#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="docComment;method#generateFactorialNumber#0;class#GenerateSimpleOpTitleService#0" />
+            <element signature="method#generateFactorialNumber#0;class#GenerateSimpleOpTitleService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Service/GenerateFractionTitleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+          <folding>
+            <element signature="method#isLessThanZero#0;class#GenerateFractionTitleService#0" />
+            <element signature="method#generateFractionList#0;class#GenerateFractionTitleService#0" />
+            <element signature="method#printFractionExpression#0;class#GenerateFractionTitleService#0" />
+            <element signature="method#generateCorrectAnswer#0;class#GenerateFractionTitleService#0" />
+            <element signature="method#fractionMultiple#0;class#GenerateFractionTitleService#0" />
+            <element signature="method#fractionDivide#0;class#GenerateFractionTitleService#0" />
+            <element signature="method#fractionAdd#0;class#GenerateFractionTitleService#0" />
+            <element signature="method#testFraction#0;class#GenerateFractionTitleService#0" />
+            <element signature="method#generateFraction#0;class#GenerateFractionTitleService#0" />
+            <element signature="method#regenerate#0;class#GenerateFractionTitleService#0" />
+            <element signature="method#generateNum#0;class#GenerateFractionTitleService#0" />
+            <element signature="method#greatestCommonDivisor#0;class#GenerateFractionTitleService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/CountDown.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="55" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/Title.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="54" column="107" selection-start-line="54" selection-start-column="107" selection-end-line="54" selection-end-column="107" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/DoTitle.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>SimpleFourOperationWeb:war2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SimpleFourOperationWeb</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:fastjson:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

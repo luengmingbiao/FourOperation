@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="css/title.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="icons/css/coreui-icons.min.css">
+    <link rel="stylesheet" href="icons/css/flag-icon.min.css">
+    <!--<link rel="stylesheet" href="icons/css/simple-line-icons.css">-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css"
+          rel="stylesheet"/>
+    <link rel="stylesheet" href="font/font-awesome.min.css">
+</head>
+<body class="app flex-row align-items-center">
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card-group">
+                <div class="card border-secondary mb-3 p-4" >
+                    <div class="card-body border-dark">
+                        <form role="form" id="selectTitleInfo">
+                            <span class="heading">四则运算练习</span>
+                            <div class="form-group row" style="text-align: center">
+                                <label class="col-md-3 col-form-label">题目类型</label>
+                                <div class="col-md-8 col-form-label" id="radio">
+                                    <div class="form-check form-check-inline mr-1">
+                                        <input class="form-check-input" id="radio1" type="radio" value="整数式"
+                                               name="inline-radios">
+                                        <label class="form-check-label" for="radio1">整数式</label>
+                                    </div>
+                                    <div class="form-check form-check-inline mr-1">
+                                        <input class="form-check-input" id="radio2" type="radio" value="分数式"
+                                               name="inline-radios">
+                                        <label class="form-check-label" for="radio2">分数式</label>
+                                    </div>
+                                    <div class="form-check form-check-inline mr-1">
+                                        <input class="form-check-input" id="radio3" type="radio" value="整数与分数式混合"
+                                               name="inline-radios">
+                                        <label class="form-check-label" for="radio3">整数与分数式混合</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group row" style="text-align: center">
+                                <label class="col-md-3 col-form-label" >题目个数</label>
+                                <!--<div class="col-md-7">-->
+                                    <!--<input class="form-control" id="text-input" type="text" name="text-input"-->
+                                           <!--placeholder="题目个数" >-->
+                                <!--</div>-->
+                                <select class="col-md-8 custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                    <option value="1">1题</option>
+                                    <option value="2">2题</option>
+                                    <option value="3">3题</option>
+                                    <option value="4">4题</option>
+                                    <option value="5">5题</option>
+                                </select>
+                            </div>
+
+                            <div class="from-group row" style="margin: 0px auto;display: table;">
+                                <button class="btn btn-primary" type="button" id="summitInfo" >做题</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript">
+    $('#summitInfo').click(function () {
+        var obj = document.getElementsByClassName('form-check-input');
+        var titleType;
+        for(var i=0; i < obj.length; i++){
+            if(obj[i].checked){
+                titleType = obj[i].value;
+            }
+        }
+
+        var titleNum = $('#inlineFormCustomSelect').val();
+        var titleInfo = {"titleType":titleType, "titleNum":parseInt(titleNum)};
+        var jsonDate = JSON.stringify(titleInfo);
+        alert(jsonDate);
+        $.ajax({
+            type: "POST",
+            url: "GetTitleInfoServlet",
+            dataType: "json",
+            data: jsonDate,
+            async:false,
+            contentType:"application/json;charset=UTF-8",
+            success: function (returnedData) {
+                var titleInfoJson = JSON.stringify(returnedData);
+                sessionStorage.setItem("title", titleInfoJson);
+            }
+         });
+
+        window.location.href = "CountDown.html";
+    });
+
+</script>
+</body>
+</html>

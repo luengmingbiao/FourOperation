@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet", href="css/title.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="icons/css/coreui-icons.min.css">
+    <link rel="stylesheet" href="icons/css/flag-icon.min.css">
+    <link rel="stylesheet" href="font/font-awesome.min.css">
+</head>
+
+<body class="app flex-row align-items-center">
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-7">
+            <div class="card-group">
+                <div class="card border-secondary mb-3 p-4" >
+                    <div class="card-body border-dark" id="TitleCard">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/json2/json2.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var startTime = Date.parse( new Date());
+
+    //该函数用来计算用户答题所用的时间
+    function statisticalTime() {
+        return Date.parse(new Date()) - startTime;
+    }
+
+    //从session获取题目Json数组字符串
+    var titleJsonStr = sessionStorage.getItem('title');
+    //将Json数组字符串转换为Json对象
+    var titleJson = JSON.parse(titleJsonStr);
+    var titleJsonLength = titleJson.length;
+    //用于存储题目正确答案的数组
+    var correctAnswerArray = new Array();
+
+    //用于在页面生成的题目表单
+    var code = "<form role=\"form\" id=\"titleFrom\">";
+    //遍历Json数组对象中的题目运算式，然后将题目添加到From表单中
+    for(var i = 0; i < titleJsonLength; i++) {
+        code += "<div class=\"form-group row\" id=\"title"+ i +"\">\n" + "<label for=\"input" + i + "\"class=\"col-sm-6 col-form-label\">"
+            + titleJson[i].operationExpression + "</label>\n" + "<div class=\"col-sm-6\">\n" +
+            "<input type=\"text\" class=\"form-control\" id=\"input" + i + "\"placeholder=\"请输入答案\">\n" +
+            "</div>\n" +
+            "</div>";
+        correctAnswerArray[i] = titleJson[i].correctAnswer;
+    }
+    code += "<div class=\"form-group row\" style=\"margin: 0px auto;display: table;\">\n" + "<div class=\"col-sm-10\">\n" +
+        "<button type=\"button\" class=\"btn btn-primary\" id=\"summitUserAnswer\" " +
+        // "data-toggle=\"modal\"" +
+        // "data-target=\"#SummitModal\" aria-pressed=\"true\"" +
+        ">提交</button>\n" +
+        "</div>\n" +
+        "</div>\n" +
+        "</form>";
+    //将该页面的代码渲染到页面表单中
+    $('#TitleCard').append(code);
+
+    //存储用户输入的题目答案的数组
+    // var userAnswerArray = new Array();
+
+    //用户点击按钮提交题目答案并计算用户的正确数以及错误数
+    $('#summitUserAnswer').click(function () {
+        $('#summitUserAnswer').addClass('disabled'); // Disables visually
+        $('#summitUserAnswer').prop('disabled', true); // Disables visually + functionally
+        //初始化用户做对题目的数目
+        var trueNum = 0;
+        for (var i = 0; i < titleJsonLength; i++) {
+            var userAnswer = document.getElementById("input" + i).value;
+            if (userAnswer == correctAnswerArray[i]) {
+                var code = "<p class=\"card-text text-danger col-sm-4\">正确</p>";
+                $('#title' + i).append(code);
+                trueNum++;
+            }else{
+                var code = "<p class=\"card-text text-danger\">你答错了，正确答案为"+ correctAnswerArray[i] +"</p>";
+                $('#title' + i).append(code);
+            }
+
+        }
+        //做错的题目数量
+        var falseNum = titleJsonLength - trueNum;
+
+        // var count = "<p class=\"text-danger\">恭喜你完成,你用了"+statisticalTime()/1000+"秒</p>"
+        var submitCode = "<div class=\"col-md-13\">\n" +
+            "<div class=\"card\">\n" +
+            "<div class=\"card-body\">\n" +
+            "<span><h5 class=\"card-title\">答题结束</h5></span>\n" +
+            "<p class=\"text-danger\">恭喜你完成,你用了" + statisticalTime() / 1000 +
+            "秒, 你答对了" + trueNum + "道题, 答错了" + falseNum + "道题！请继续加油！" + "</p>\n" +
+            "<div class='row' style=\"margin: 0px auto;display: table;\">" +
+            "<a href=\"Title.html\" class=\"btn btn-primary\">重新生成题目</a>\n" +
+                "</div>" +
+            "</div>\n" +
+            "</div>\n" +
+            "</div>";
+         $('#TitleCard').append(submitCode);
+    });
+
+</script>
+</html>

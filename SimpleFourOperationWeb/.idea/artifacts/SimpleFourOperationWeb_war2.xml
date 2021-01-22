@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SimpleFourOperationWeb:war2">
+    <output-path>$PROJECT_DIR$/out/artifacts/SimpleFourOperationWeb_war2</output-path>
+    <root id="archive" name="SimpleFourOperationWeb_war.war">
+      <element id="artifact" artifact-name="SimpleFourOperationWeb:war exploded" />
+    </root>
+  </artifact>
+</component>

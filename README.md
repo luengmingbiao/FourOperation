@@ -22,17 +22,17 @@
 三.软件演示
 软件入口地址：http://119.23.205.157:8888/SimpleFourOperationWeb_war/Title.html  
 1.首先进行选择题目类型以及题目个数  
-![选择题目类型以及题目个数](https://github.com/luengmingbiao/FourOperation/blob/FourOperationWeb/SimpleFourOperationWeb/src/main/webapp/images/1.png)
+![选择题目类型以及题目个数](https://github.com/luengmingbiao/FourOperation/blob/master/SimpleFourOperationWeb/src/main/webapp/images/1.png)
 
-![选择题目类型以及题目个数](https://github.com/luengmingbiao/FourOperation/blob/FourOperationWeb/SimpleFourOperationWeb/src/main/webapp/images/2.png)
+![选择题目类型以及题目个数](https://github.com/luengmingbiao/FourOperation/blob/master/SimpleFourOperationWeb/src/main/webapp/images/2.png)
 
 2.点击做题等待跳转到做题页面
-![点击做题等待跳转到做题页面](https://github.com/luengmingbiao/FourOperation/blob/FourOperationWeb/SimpleFourOperationWeb/src/main/webapp/images/3.png)
+![点击做题等待跳转到做题页面](https://github.com/luengmingbiao/FourOperation/blob/master/SimpleFourOperationWeb/src/main/webapp/images/3.png)
 
-![点击做题等待跳转到做题页面](https://github.com/luengmingbiao/FourOperation/blob/FourOperationWeb/SimpleFourOperationWeb/src/main/webapp/images/4.png)
+![点击做题等待跳转到做题页面](https://github.com/luengmingbiao/FourOperation/blob/master/SimpleFourOperationWeb/src/main/webapp/images/4.png)
 
 3.计算题目后点击提交
-![计算题目后点击提交](https://github.com/luengmingbiao/FourOperation/blob/FourOperationWeb/SimpleFourOperationWeb/src/main/webapp/images/5.png)
+![计算题目后点击提交](https://github.com/luengmingbiao/FourOperation/blob/master/SimpleFourOperationWeb/src/main/webapp/images/5.png)
 
 # License
 MIT Copyright (c) 2019 梁铭标
